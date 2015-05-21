@@ -9,7 +9,7 @@ describe('#add', function () {
 
 	it('should add 2 + 4', function (done) {
 		var actual = add(2, 4);
-		expect(actual).to.equal(10);
+		expect(actual).to.equal(6);
 		done();
 	})
 });
